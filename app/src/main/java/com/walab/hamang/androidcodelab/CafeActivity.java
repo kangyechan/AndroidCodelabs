@@ -43,8 +43,7 @@ public class CafeActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         total = (Integer.parseInt(menu1.getText().toString()) * 1000) + (Integer.parseInt(menu2.getText().toString()) * 1500) + (Integer.parseInt(menu3.getText().toString()) * 1700);
         if(checkCard.isChecked()) total = total * 90 / 100;
-        Toast toast = Toast.makeText(this, Integer.toString(total), Toast.LENGTH_SHORT);
-        toast.show();
+        Toast.makeText(this, Integer.toString(total), Toast.LENGTH_SHORT).show();
     }
 
     public void init() {
@@ -52,6 +51,5 @@ public class CafeActivity extends AppCompatActivity implements View.OnClickListe
         menu2 = (TextView) findViewById(R.id.editMenu2);
         menu3 = (TextView) findViewById(R.id.editMenu3);
         checkCard = (CheckBox) findViewById(R.id.card);
-
     }
 }
