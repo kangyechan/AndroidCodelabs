@@ -4,4 +4,12 @@
     <string name="button_label_count">Count</string>
     <string name="count_initial_value">0</string>
     <string name="toast_message">Hello Toast!</string>
+    <string name="title_activity_cafe">CafeActivity</string>
+
+    <string name="menu1">아메리카노 (1000원)</string>
+    <string name="menu2">카페라떼 (1500원)</string>
+    <string name="menu3">카페모카 (1700원)</string>
+    <string name="menu_init_order">1</string>
+    <string name="check1">할인카드 있음(10% 할인)</string>
+    <string name="calculate">총 금액 계산</string>
 </resources>
