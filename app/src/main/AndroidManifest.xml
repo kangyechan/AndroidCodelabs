@@ -9,21 +9,24 @@
         android:roundIcon="@mipmap/iconfinder_lucky_smile_smiley_4096574"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ScrollActivity">
+        <activity android:name=".ScrollActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".UiEditActivity" />
+        <activity
+            android:name=".CafeActivity"
+            android:label="@string/title_activity_cafe"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MemoActivity" />
+        <activity android:name=".FirstActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".UiEditActivity" />
-        <activity
-            android:name=".CafeActivity"
-            android:label="@string/title_activity_cafe"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".FourthActivity"></activity>
     </application>
 
 </manifest>
