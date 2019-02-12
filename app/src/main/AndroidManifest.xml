@@ -18,15 +18,18 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MemoActivity" />
         <activity android:name=".FirstActivity">
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".FourthActivity" />
+        <activity android:name=".FirstMsgActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".ThirdActivity" />
-        <activity android:name=".FourthActivity"></activity>
+        <activity android:name=".SecondMsgActivity"></activity>
     </application>
 
 </manifest>
