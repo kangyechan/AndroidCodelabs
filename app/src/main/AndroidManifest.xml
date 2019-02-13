@@ -19,7 +19,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OrderActivity"></activity>
+        <activity
+            android:name=".ListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".CustomListActivity"></activity>
     </application>
 
 </manifest>
