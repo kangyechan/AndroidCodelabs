@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.walab.hamang.clickableimage.MainActivity">
+
     <item
         android:id="@+id/action_settings"
         android:orderInCategory="100"
@@ -9,20 +10,39 @@
         app:showAsAction="never" />
     <item
         android:id="@+id/action_order"
+        android:icon="@drawable/ic_shopping_cart"
         android:orderInCategory="10"
-        android:title="Order"
-        app:showAsAction="never" />
-
+        android:title="order"
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_status"
+        android:icon="@drawable/ic_status_info"
         android:orderInCategory="20"
-        android:title="Status"
-        app:showAsAction="never" />
+        android:title="status"
+        app:showAsAction="always" />
     <item
         android:id="@+id/action_favorites"
-        android:orderInCategory="100"
-        android:title="Favorites"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_favorite"
+        android:orderInCategory="30"
+        android:title="favorite"
+        app:showAsAction="ifRoom" />
+
+    <!--<item-->
+        <!--android:id="@+id/action_order"-->
+        <!--android:orderInCategory="10"-->
+        <!--android:title="Order"-->
+        <!--app:showAsAction="never" />-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_status"-->
+        <!--android:orderInCategory="20"-->
+        <!--android:title="Status"-->
+        <!--app:showAsAction="never" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_favorites"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="Favorites"-->
+        <!--app:showAsAction="never" />-->
     <item
         android:id="@+id/action_contact"
         android:title="Contact"
