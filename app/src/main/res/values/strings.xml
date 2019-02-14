@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListViewApp</string>
+    <string name="title_activity_list_word">ListWordActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
