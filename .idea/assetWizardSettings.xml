@@ -5,6 +5,7 @@
       <map>
         <entry key="imageWizard">
           <value>
+<<<<<<< HEAD
             <PersistentState>
               <option name="children">
                 <map>
@@ -80,6 +81,9 @@
                 </map>
               </option>
             </PersistentState>
+=======
+            <PersistentState />
+>>>>>>> TEMP
           </value>
         </entry>
       </map>
