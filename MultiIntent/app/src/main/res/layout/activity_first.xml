@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".FirstActivity">
+
+    <Button
+        android:id="@+id/main2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick2"
+        android:text="두 번째 엑티비티 호출" />
+
+    <EditText
+        android:id="@+id/intentEditText"
+        android:background="#eeeeee"
+        android:layout_width="wrap_content"
+        android:hint="이름을 입력하세요~"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/main3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick3"
+        android:text="정보 확인" />
+
+    <EditText
+        android:id="@+id/fourEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="메시지를 입력하세요."
+        android:background="#eefdb2b2" />
+
+    <Button
+        android:id="@+id/msgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메세지 전송"
+        android:onClick="onClick4"/>
+
+    <TextView
+        android:id="@+id/fourMsg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fffca3"/>
+
+</LinearLayout>
